@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrollable Box Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scrollable-cards">
+        <div>
+        <p style="margin-left: 10px; font-weight: 500">Specials for You</p>
+
+        <div class="media-scroller snaps-inline">
+          <navigator
+            href="/"
+            url="{{item.link}}"
+            class="slider-card media-element"
+          >
+            <view class="food-info">
+              <view class="food-details">
+                <h2 class="food-name">Food Name</h2>
+                <p class="food-price">$9.99</p>
+              </view>
+              <image
+                class="food-image"
+                src="food.jpg"
+                alt="Food Image"
+                mode="aspectFill"
+              />
+            </view>
+            <view class="actions">
+              <p class="delivery-time">30-40 min</p>
+              <button class="add-to-cart">+</button>
+            </view>
+          </navigator>
+          <navigator
+            href="/"
+            url="{{item.link}}"
+            class="slider-card media-element"
+          >
+            <view class="food-info">
+              <view class="food-details">
+                <h2 class="food-name">Food Name</h2>
+                <p class="food-price">$9.99</p>
+              </view>
+              <image
+                class="food-image"
+                src="food.jpg"
+                alt="Food Image"
+                mode="aspectFill"
+              />
+            </view>
+            <view class="actions">
+              <p class="delivery-time">30-40 min</p>
+              <button class="add-to-cart">+</button>
+            </view>
+          </navigator>
+          <navigator
+            href="/"
+            url="{{item.link}}"
+            class="slider-card media-element"
+          >
+            <view class="food-info">
+              <view class="food-details">
+                <h2 class="food-name">Food Name</h2>
+                <p class="food-price">$9.99</p>
+              </view>
+              <image
+                class="food-image"
+                src="food.jpg"
+                alt="Food Image"
+                mode="aspectFill"
+              />
+            </view>
+            <view class="actions">
+              <p class="delivery-time">30-40 min</p>
+              <button class="add-to-cart">+</button>
+            </view>
+          </navigator>
+          <navigator
+            href="/"
+            url="{{item.link}}"
+            class="slider-card media-element"
+          >
+            <view class="food-info">
+              <view class="food-details">
+                <h2 class="food-name">Food Name</h2>
+                <p class="food-price">$9.99</p>
+              </view>
+              <image
+                class="food-image"
+                src="food.jpg"
+                alt="Food Image"
+                mode="aspectFill"
+              />
+            </view>
+            <view class="actions">
+              <p class="delivery-time">30-40 min</p>
+              <button class="add-to-cart">+</button>
+            </view>
+          </navigator>
+          <navigator
+            href="/"
+            url="{{item.link}}"
+            class="slider-card media-element"
+          >
+            <view class="food-info">
+              <view class="food-details">
+                <h2 class="food-name">Food Name</h2>
+                <p class="food-price">$9.99</p>
+              </view>
+              <image
+                class="food-image"
+                src="food.jpg"
+                alt="Food Image"
+                mode="aspectFill"
+              />
+            </view>
+            <view class="actions">
+              <p class="delivery-time">30-40 min</p>
+              <button class="add-to-cart">+</button>
+            </view>
+          </navigator>
+        </div>
+      </div>
+
+        <div class="kitchen-slider ">
+          <p style="margin: 10px; font-weight: 500">Kitchen Near You</p>
+          <div class="media-scroller snaps-inline">
+            <div class="kitchen-card-container media-element">
+              <div class="kitchen-card">
+                <div class="kitchen-header">
+                  <span class="rating-badge">
+                    <span class="stars" style="margin-right: 2px">★</span>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews">(25+)</span>
+                  </span>
+                  <button class="favorite-btn" aria-label="Add to favorites">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      stroke="none"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="kitchen-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Delicious food"
+                  />
+                </div>
+
+                <div class="kitchen-card-content">
+                  <div class="restaurant-info">
+                    <h2 class="restaurant-name">
+                      Aliva Kitchen <span class="verified-badge">✓</span>
+                    </h2>
+                    <div class="delivery-details">
+                      <div class="time-info">
+                        <span class="icon blue">⏱</span>
+                        <span>10-15 mins</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="food-categories">
+                    <span class="category-tag">Burger</span>
+                    <span class="category-tag">Chicken</span>
+                    <span class="category-tag">Meal</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="kitchen-card-container media-element">
+              <div class="kitchen-card">
+                <div class="kitchen-header">
+                  <span class="rating-badge">
+                    <span class="stars" style="margin-right: 2px">★</span>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews">(25+)</span>
+                  </span>
+                  <button class="favorite-btn" aria-label="Add to favorites">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      stroke="none"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="kitchen-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Delicious food"
+                  />
+                </div>
+
+                <div class="kitchen-card-content">
+                  <div class="restaurant-info">
+                    <h2 class="restaurant-name">
+                      Aliva Kitchen <span class="verified-badge">✓</span>
+                    </h2>
+                    <div class="delivery-details">
+                      <div class="time-info">
+                        <span class="icon blue">⏱</span>
+                        <span>10-15 mins</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="food-categories">
+                    <span class="category-tag">Burger</span>
+                    <span class="category-tag">Chicken</span>
+                    <span class="category-tag">Meal</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="kitchen-card-container media-element">
+              <div class="kitchen-card">
+                <div class="kitchen-header">
+                  <span class="rating-badge">
+                    <span class="stars" style="margin-right: 2px">★</span>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews">(25+)</span>
+                  </span>
+                  <button class="favorite-btn" aria-label="Add to favorites">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      stroke="none"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="kitchen-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Delicious food"
+                  />
+                </div>
+
+                <div class="kitchen-card-content">
+                  <div class="restaurant-info">
+                    <h2 class="restaurant-name">
+                      Aliva Kitchen <span class="verified-badge">✓</span>
+                    </h2>
+                    <div class="delivery-details">
+                      <div class="time-info">
+                        <span class="icon blue">⏱</span>
+                        <span>10-15 mins</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="food-categories">
+                    <span class="category-tag">Burger</span>
+                    <span class="category-tag">Chicken</span>
+                    <span class="category-tag">Meal</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="kitchen-card-container media-element">
+              <div class="kitchen-card">
+                <div class="kitchen-header">
+                  <span class="rating-badge">
+                    <span class="stars" style="margin-right: 2px">★</span>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews">(25+)</span>
+                  </span>
+                  <button class="favorite-btn" aria-label="Add to favorites">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      stroke="none"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="kitchen-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Delicious food"
+                  />
+                </div>
+
+                <div class="kitchen-card-content">
+                  <div class="restaurant-info">
+                    <h2 class="restaurant-name">
+                      Aliva Kitchen <span class="verified-badge">✓</span>
+                    </h2>
+                    <div class="delivery-details">
+                      <div class="time-info">
+                        <span class="icon blue">⏱</span>
+                        <span>10-15 mins</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="food-categories">
+                    <span class="category-tag">Burger</span>
+                    <span class="category-tag">Chicken</span>
+                    <span class="category-tag">Meal</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="kitchen-card-container media-element">
+              <div class="kitchen-card">
+                <div class="kitchen-header">
+                  <span class="rating-badge">
+                    <span class="stars" style="margin-right: 2px">★</span>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews">(25+)</span>
+                  </span>
+                  <button class="favorite-btn" aria-label="Add to favorites">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      stroke="none"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="kitchen-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Delicious food"
+                  />
+                </div>
+
+                <div class="kitchen-card-content">
+                  <div class="restaurant-info">
+                    <h2 class="restaurant-name">
+                      Aliva Kitchen <span class="verified-badge">✓</span>
+                    </h2>
+                    <div class="delivery-details">
+                      <div class="time-info">
+                        <span class="icon blue">⏱</span>
+                        <span>10-15 mins</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="food-categories">
+                    <span class="category-tag">Burger</span>
+                    <span class="category-tag">Chicken</span>
+                    <span class="category-tag">Meal</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services-container">
+          <div class="service-cards-grid">
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Food <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
+                    alt="Food"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Supermarkets <span class="service-card-count">32</span></h2></h2>
+                
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=400&auto=format&fit=crop"
+                    alt="Supermarkets"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Laundry <span class="service-card-count">32</span></h2></h2>
+          
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1527576539890-dfa815648363?w=400&auto=format&fit=crop"
+                    alt="Laundry"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Pastry <span class="service-card-count">32</span></h2></h2>
+        
+                <div class="service-card-image-container">
+                  <img
+                    src="https://unsplash.com/photos/Ns2aJ5OXKds/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQ2NzA0MjU3fA&force=true"
+                    alt="Pastry"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Pharmacy <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&auto=format&fit=crop"
+                    alt="Pharmacy"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Beverages <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=400&auto=format&fit=crop"
+                    alt="Beverages"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Flowers <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&auto=format&fit=crop"
+                    alt="Flowers"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Beauty Supply <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&auto=format&fit=crop"
+                    alt="Beauty Supply"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Essentials <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400&auto=format&fit=crop"
+                    alt="Essentials"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+    
+            <div class="service-card">
+              <div class="service-card-content">
+                <h2 class="service-card-title">Electronics <span class="service-card-count">32</span></h2></h2>
+                <div class="service-card-image-container">
+                  <img
+                    src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&auto=format&fit=crop"
+                    alt="Electronics"
+                    class="service-card-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="checkout-container">
+        
+        <button class="nav-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          <span>Home</span>
+        </button>
+        <button class="nav-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span>Order</span>
+        </button>
+        
+        <button class="nav-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span>Profile</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

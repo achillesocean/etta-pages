@@ -5,7 +5,7 @@ body {
     Arial, sans-serif;
   background-color: #f4f8f9;
   height: 100vh;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  /* overflow-x: hidden; Prevent horizontal scroll */
 }
 
 a {
@@ -38,11 +38,19 @@ a {
 }
 
 .main-food-name {
-  margin: 10px;
+  margin: 0 10px 10px 10px;
   text-align: left;
   font-weight: 500;
-  color: #242625;
+  /* color: #242625; */
   font-size: x-large;
+}
+
+.main-food-price {
+  margin: 0 10px 10px 10px;
+  text-align: left;
+  font-weight: 500;
+  color: #4caf50;
+  font-size: large;
 }
 
 .recommendation {

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <view class="cells">
+      <view
+        class="item"
+        ma:for="{{cart.item}}"
+        ma:for-item="item"
+        ma:for-index="index"
+        ma:key=" item._id"
+      >
+        <image
+          ma:if="{{item.imageUrl != ''}}"
+          src="https://app.zmallapp.com/{{item.imageUrl}}"
+          mode="aspectFill"
+        />
+        <image
+          ma:else
+          class="img-logo"
+          src="https://i.ibb.co/SBcv3m4/zmall.png"
+        />
+        <view class="meta">
+          <text class="name">{{item.itemName}}</text>
+          <text class="address">{{item.total * item.qty}} ብር</text>
+          <!-- <text class="hours">{{item.store_tags || ''}}</text> -->
+        </view>
+        <view class="qty-container">
+          <view class="qty">
+            <view
+              class="btn"
+              bindtap="removeQty"
+              data-src="{{index}}"
+              src="{{index}}"
+              >-</view
+            >
+            <view class="count"> {{item.qty}} </view>
+            <view
+              class="btn"
+              bindtap="addQty"
+              data-src="{{index}}"
+              src="{{index}}"
+              >+</view
+            >
+          </view>
+          <view class="remove">
+            <view>
+              <text bindtap="removeItem" data-src="{{index}}" src="{{index}}"
+                >Remove</text
+              >
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="price">
+      <text class="name">Cart Total: ብር {{total}}</text>
+    </view>
+    <view class="endtap">
+      <view
+        style="
+          border-radius: 20px 20px 20px 20px;
+          width: 30%;
+          margin-left: 35%;
+          background-color: #f11d3a;
+          color: white;
+          display: flex;
+        "
+      >
+        <view style="margin: auto" bindtap="checkOut">Checkout</view>
+      </view>
+    </view>
+    <!-- <button bindtap="checkOut" class="button">Checkout</button> -->
+    <!-- <view style="position: fixed; bottom : 10rpx; align-items: center;">
+    <button bindtap="checkOut">CheckOut</button>
+</view> -->
+  </body>
+</html>

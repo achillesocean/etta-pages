@@ -257,7 +257,7 @@ button {
   margin-bottom: 0;
 }
 
-.kitchen-image img {
+.kitchen-image image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -265,7 +265,7 @@ button {
   transition: transform 0.2s ease;
 }
 
-.kitchen-card:hover .kitchen-image img {
+.kitchen-card:hover .kitchen-image image {
   transform: scale(1.1);
 }
 

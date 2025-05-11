@@ -17,7 +17,7 @@
         <p style="margin-left: 10px; font-weight: 500">Specials for You</p>
 
         <div class="media-scroller snaps-inline">
-          <navigator
+          <div
             href="/"
             url="{{item.link}}"
             class="slider-card media-element"
@@ -38,8 +38,8 @@
               <p class="delivery-time">30-40 min</p>
               <button class="specials-add-to-cart">+</button>
             </view>
-          </navigator>
-          <navigator
+          </div>
+          <div
             href="/"
             url="{{item.link}}"
             class="slider-card media-element"
@@ -60,8 +60,8 @@
               <p class="delivery-time">30-40 min</p>
               <button class="specials-add-to-cart">+</button>
             </view>
-          </navigator>
-          <navigator
+          </div>
+          <div
             href="/"
             url="{{item.link}}"
             class="slider-card media-element"
@@ -82,8 +82,8 @@
               <p class="delivery-time">30-40 min</p>
               <button class="specials-add-to-cart">+</button>
             </view>
-          </navigator>
-          <navigator
+          </div>
+          <div
             href="/"
             url="{{item.link}}"
             class="slider-card media-element"
@@ -104,7 +104,7 @@
               <p class="delivery-time">30-40 min</p>
               <button class="specials-add-to-cart">+</button>
             </view>
-          </navigator>
+          </div>
           <navigator
             href="/"
             url="{{item.link}}"
@@ -130,7 +130,7 @@
         </div>
       </div>
 
-        <div class="kitchen-slider ">
+        <div class="kitchen-slider">
           <p style="margin: 10px; font-weight: 500">Kitchen Near You</p>
           <div class="media-scroller snaps-inline">
             <div class="kitchen-card-container media-element">
@@ -157,14 +157,14 @@
                   </button>
                 </div>
 
-                <div class="kitchen-image">
-                  <img
+                <div href="/" url="{{item.link}}" class="kitchen-image">
+                  <image
                     src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
-                    alt="Delicious food"
+                    alt="Delicious food" mode="aspectFill"
                   />
                 </div>
 
-                <div class="kitchen-card-content">
+                <div href="/" url="{{item.link}}" class="kitchen-card-content">
                   <div class="restaurant-info">
                     <h2 class="restaurant-name">
                       Aliva Kitchen <span class="verified-badge">✓</span>
@@ -209,14 +209,14 @@
                   </button>
                 </div>
 
-                <div class="kitchen-image">
-                  <img
+                <div href="/" url="{{item.link}}" class="kitchen-image">
+                  <image
                     src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
-                    alt="Delicious food"
+                    alt="Delicious food" mode="aspectFill"
                   />
                 </div>
 
-                <div class="kitchen-card-content">
+                <div href="/" url="{{item.link}}" class="kitchen-card-content">
                   <div class="restaurant-info">
                     <h2 class="restaurant-name">
                       Aliva Kitchen <span class="verified-badge">✓</span>
@@ -261,14 +261,14 @@
                   </button>
                 </div>
 
-                <div class="kitchen-image">
-                  <img
+                <div href="/" url="{{item.link}}" class="kitchen-image">
+                  <image
                     src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
-                    alt="Delicious food"
+                    alt="Delicious food" mode="aspectFill"
                   />
                 </div>
 
-                <div class="kitchen-card-content">
+                <div href="/" url="{{item.link}}" class="kitchen-card-content">
                   <div class="restaurant-info">
                     <h2 class="restaurant-name">
                       Aliva Kitchen <span class="verified-badge">✓</span>
@@ -313,66 +313,14 @@
                   </button>
                 </div>
 
-                <div class="kitchen-image">
-                  <img
+                <div href="/" url="{{item.link}}" class="kitchen-image">
+                  <image
                     src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
-                    alt="Delicious food"
+                    alt="Delicious food" mode="aspectFill"
                   />
                 </div>
 
-                <div class="kitchen-card-content">
-                  <div class="restaurant-info">
-                    <h2 class="restaurant-name">
-                      Aliva Kitchen <span class="verified-badge">✓</span>
-                    </h2>
-                    <div class="delivery-details">
-                      <div class="time-info">
-                        <span class="icon blue">⏱</span>
-                        <span>10-15 mins</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="food-categories">
-                    <span class="category-tag">Burger</span>
-                    <span class="category-tag">Chicken</span>
-                    <span class="category-tag">Meal</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="kitchen-card-container media-element">
-              <div class="kitchen-card">
-                <div class="kitchen-header">
-                  <span class="rating-badge">
-                    <span class="stars" style="margin-right: 2px">★</span>
-                    <span class="rating-number">4.5</span>
-                    <span class="reviews">(25+)</span>
-                  </span>
-                  <button class="favorite-btn" aria-label="Add to favorites">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="white"
-                      stroke="none"
-                    >
-                      <path
-                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                <div class="kitchen-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&auto=format&fit=crop"
-                    alt="Delicious food"
-                  />
-                </div>
-
-                <div class="kitchen-card-content">
+                <div href="/" url="{{item.link}}" class="kitchen-card-content">
                   <div class="restaurant-info">
                     <h2 class="restaurant-name">
                       Aliva Kitchen <span class="verified-badge">✓</span>
@@ -397,7 +345,7 @@
         </div>
         <div class="services-container">
           <div class="service-cards-grid">
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Food <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -410,7 +358,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Supermarkets <span class="service-card-count">32</span></h2></h2>
                 
@@ -424,7 +372,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Laundry <span class="service-card-count">32</span></h2></h2>
           
@@ -438,7 +386,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Pastry <span class="service-card-count">32</span></h2></h2>
         
@@ -452,7 +400,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Pharmacy <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -465,7 +413,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Beverages <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -478,7 +426,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Flowers <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -491,7 +439,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Beauty Supply <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -504,7 +452,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Essentials <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">
@@ -517,7 +465,7 @@
               </div>
             </div>
     
-            <div class="service-card">
+            <div class="service-card" bindtap="navigateToCategory" data-src="{{item._id}}">
               <div class="service-card-content">
                 <h2 class="service-card-title">Electronics <span class="service-card-count">32</span></h2></h2>
                 <div class="service-card-image-container">

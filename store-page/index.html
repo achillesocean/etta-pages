@@ -3,21 +3,375 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant Page</title>
+    <title>Savoria Restaurant</title>
+    <meta
+      name="description"
+      content="Mediterranean fusion cuisine with a modern twist"
+    />
+    <meta name="author" content="Savoria" />
     <link rel="stylesheet" href="style.css" />
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
   </head>
   <body>
-    <img src="https://picsum.photos/800/1000" alt="restaurant" />
-
-    <main>
-      <div class="main-content">
-        <div class="rating-row">
-          <span class="star-rating">⭐️</span>
-          <span class="rating-value">4.5/5</span>
-          <span class="num-ratings">(123 ratings)</span>
-          <p class="delivery-time">Delivery time: 30-45 minutes</p>
-        </div>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Savoria</h1>
+        <p>Mediterranean fusion cuisine with a modern twist</p>
       </div>
+    </div>
+
+    <!-- Food Sections -->
+    <main>
+      <!-- Starters Section -->
+      <section id="starters" class="food-section">
+        <h2 class="section-title">Starters</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1541014741259-de529411b96a"
+              alt="Bruschetta"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Bruschetta</h3>
+            <p>
+              Toasted bread topped with fresh tomatoes, basil, and olive oil
+            </p>
+            <div class="food-footer">
+              <span class="price">$8.99</span>
+              <span class="tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1601056900679-84e2c3acf816"
+              alt="Calamari"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Calamari</h3>
+            <p>Crispy fried squid rings served with lemon and aioli</p>
+            <div class="food-footer">
+              <span class="price">$10.99</span>
+              <span class="tag">Seafood</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab"
+              alt="Hummus"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Hummus Plate</h3>
+            <p>
+              Creamy chickpea dip with olive oil, served with warm pita bread
+            </p>
+            <div class="food-footer">
+              <span class="price">$7.99</span>
+              <span class="tag">Vegan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Course Section -->
+      <section id="main-course" class="food-section">
+        <h2 class="section-title">Main Course</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1548848221-0c2e497ed557"
+              alt="Grilled Salmon"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Grilled Salmon</h3>
+            <p>
+              Atlantic salmon fillet with lemon herb butter and seasonal
+              vegetables
+            </p>
+            <div class="food-footer">
+              <span class="price">$21.99</span>
+              <span class="tag">Seafood</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1608877907145-a91c4fcf8c78"
+              alt="Vegetable Paella"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Vegetable Paella</h3>
+            <p>Saffron-infused rice with seasonal vegetables and herbs</p>
+            <div class="food-footer">
+              <span class="price">$18.99</span>
+              <span class="tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9"
+              alt="Lamb Kebabs"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Lamb Kebabs</h3>
+            <p>Marinated lamb skewers with Mediterranean spices and tzatziki</p>
+            <div class="food-footer">
+              <span class="price">$23.99</span>
+              <span class="tag">Popular</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Burgers Section -->
+      <section id="burgers" class="food-section">
+        <h2 class="section-title">Burgers</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5"
+              alt="Classic Burger"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Classic Burger</h3>
+            <p>
+              Angus beef patty with lettuce, tomato, cheese, and special sauce
+            </p>
+            <div class="food-footer">
+              <span class="price">$14.99</span>
+              <span class="tag">Bestseller</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90"
+              alt="Veggie Burger"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Mediterranean Veggie Burger</h3>
+            <p>Falafel patty with hummus, roasted red peppers, and tzatziki</p>
+            <div class="food-footer">
+              <span class="price">$13.99</span>
+              <span class="tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181"
+              alt="Lamb Burger"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Greek Lamb Burger</h3>
+            <p>Spiced lamb patty with feta cheese, cucumber, and mint yogurt</p>
+            <div class="food-footer">
+              <span class="price">$16.99</span>
+              <span class="tag">Special</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pizzas Section -->
+      <section id="pizzas" class="food-section">
+        <h2 class="section-title">Pizzas</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e"
+              alt="Margherita Pizza"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Margherita</h3>
+            <p>Classic tomato sauce, fresh mozzarella, and basil</p>
+            <div class="food-footer">
+              <span class="price">$14.99</span>
+              <span class="tag">Classic</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+              alt="Mediterranean Pizza"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Mediterranean</h3>
+            <p>
+              Olive oil base with feta, olives, artichokes, and sun-dried
+              tomatoes
+            </p>
+            <div class="food-footer">
+              <span class="price">$17.99</span>
+              <span class="tag">Specialty</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1571066811602-716837d681de"
+              alt="Seafood Pizza"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Seafood Delight</h3>
+            <p>Tomato base with shrimp, calamari, mussels, and fresh herbs</p>
+            <div class="food-footer">
+              <span class="price">$19.99</span>
+              <span class="tag">Premium</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Desserts Section -->
+      <section id="desserts" class="food-section">
+        <h2 class="section-title">Desserts</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc"
+              alt="Baklava"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Baklava</h3>
+            <p>Layered phyllo pastry with nuts and honey syrup</p>
+            <div class="food-footer">
+              <span class="price">$7.99</span>
+              <span class="tag">Traditional</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1551024506-0bccd828d307"
+              alt="Tiramisu"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Tiramisu</h3>
+            <p>Coffee-soaked ladyfingers layered with mascarpone cream</p>
+            <div class="food-footer">
+              <span class="price">$8.99</span>
+              <span class="tag">Italian</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1567341836436-ba5d1922071a"
+              alt="Crème Brûlée"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Crème Brûlée</h3>
+            <p>Rich vanilla custard with caramelized sugar top</p>
+            <div class="food-footer">
+              <span class="price">$9.99</span>
+              <span class="tag">French</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drinks Section -->
+      <section id="drinks" class="food-section">
+        <h2 class="section-title">Drinks</h2>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1544145945-f90425340c7e"
+              alt="House Wine"
+            />
+          </div>
+          <div class="food-info">
+            <h3>House Wine</h3>
+            <p>Red, white, or rosé from our curated selection (glass)</p>
+            <div class="food-footer">
+              <span class="price">$8.99</span>
+              <span class="tag">Alcohol</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1536935338788-846bb9981813"
+              alt="Sangria"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Mediterranean Sangria</h3>
+            <p>Red or white wine with fresh fruits and citrus</p>
+            <div class="food-footer">
+              <span class="price">$11.99</span>
+              <span class="tag">Specialty</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <div class="food-img">
+            <img
+              src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d"
+              alt="Fresh Lemonade"
+            />
+          </div>
+          <div class="food-info">
+            <h3>Fresh Lemonade</h3>
+            <p>Housemade with mint and citrus, served over ice</p>
+            <div class="food-footer">
+              <span class="price">$4.99</span>
+              <span class="tag">Refreshing</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
